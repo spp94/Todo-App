@@ -7,7 +7,7 @@ public class JDBCUtils {
 
     private static String jdbcURL = "jdbc:mysql://localhost:3306/swing_demo";
     private static String jdbcUsername = "root";
-    private static String jdbcPassword = "Archana*130594";
+    private static String jdbcPassword = "root";
 
     public static Connection getConnection() throws SQLException {
         Connection connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
